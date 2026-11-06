@@ -1,0 +1,34 @@
+INCOME-TAX PROVISIONS FOR SALARIED INDIVIDUALS FOR FY 2025-26 (AY 2026-27)
+Source: Finance Act 2025 amendments to Section 115BAC
+
+1. SCOPE AND REVISED PROVISIONS FOR FY 2025-26
+Assessment Year 2026-27 (Financial Year 2025-26).
+The Old Tax Regime remains unchanged in its slab rates, Section 87A rebate, and Chapter VI-A deductions.
+The New Tax Regime under Section 115BAC(1A) is overhauled with broadened tax slabs and increased rebate.
+
+2. STANDARD DEDUCTION (SECTION 16(ia))
+- Old Regime: Standard deduction remains Rs. 50,000.
+- New Regime: Standard deduction remains Rs. 75,000.
+
+3. HRA, HOME LOAN & CHAPTER VI-A DEDUCTIONS
+- Unchanged: Allowed in Old Regime only (HRA Sec 10(13A), 80C up to 1.5L, 80CCD(1B) up to 50k, 80D up to 1L, Sec 24(b) up to 2L).
+- Disallowed under New Regime.
+
+4. REVISED NEW REGIME TAX SLABS FOR FY 2025-26
+Section 115BAC slabs for FY 2025-26:
+- Up to Rs. 4,00,000: Nil
+- Rs. 4,00,001 to Rs. 8,00,000: 5% of amount exceeding Rs. 4,00,000
+- Rs. 8,00,001 to Rs. 12,00,000: Rs. 20,000 + 10% of amount exceeding Rs. 8,00,000
+- Rs. 12,00,001 to Rs. 16,00,000: Rs. 60,000 + 15% of amount exceeding Rs. 12,00,000
+- Rs. 16,00,001 to Rs. 20,00,000: Rs. 1,20,000 + 20% of amount exceeding Rs. 16,00,000
+- Rs. 20,00,001 to Rs. 24,00,000: Rs. 2,00,000 + 25% of amount exceeding Rs. 20,00,000
+- Above Rs. 24,00,000: Rs. 3,00,000 + 30% of amount exceeding Rs. 24,00,000
+
+5. SECTION 87A REBATE & MARGINAL RELIEF (FY 2025-26 NEW REGIME)
+- If Total Income does not exceed Rs. 12,00,000, full rebate of tax payable (up to Rs. 60,000). Tax liability is Nil up to Rs. 12,00,000.
+- Marginal Relief: For Total Income exceeding Rs. 12,00,000, tax payable shall not exceed (Total Income - Rs. 12,00,000).
+
+6. SURCHARGE AND CESS
+- Surcharge rates (10%, 15%, 25%, capped at 25% for New Regime) and marginal relief rules remain identical.
+- Health and Education Cess remains 4%.
+- Rounding rules under Sections 288A and 288B remain identical.

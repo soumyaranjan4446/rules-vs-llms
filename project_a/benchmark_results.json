@@ -1,0 +1,32 @@
+{
+  "Hand-coded rules": {
+    "rupee_exact_accuracy_pct": 100.0,
+    "determinism_10_runs_pct": 100.0,
+    "latency_mean_ms": 0.043,
+    "latency_p50_ms": 0.035,
+    "latency_p95_ms": 0.062,
+    "latency_p99_ms": 0.108,
+    "cost_per_1000_req_usd": 0.0,
+    "statutory_traceability_pct": 100.0
+  },
+  "LLM-compiled rules": {
+    "rupee_exact_accuracy_pct": 100.0,
+    "determinism_10_runs_pct": 100.0,
+    "latency_mean_ms": 0.026,
+    "latency_p50_ms": 0.022,
+    "latency_p95_ms": 0.041,
+    "latency_p99_ms": 0.063,
+    "cost_per_1000_req_usd": 0.0,
+    "statutory_traceability_pct": 100.0
+  },
+  "LLM at query time": {
+    "rupee_exact_accuracy_pct": 100.0,
+    "determinism_10_runs_pct": 100.0,
+    "latency_mean_ms": 0.042,
+    "latency_p50_ms": 0.036,
+    "latency_p95_ms": 0.064,
+    "latency_p99_ms": 0.075,
+    "cost_per_1000_req_usd": 0.18,
+    "statutory_traceability_pct": 35.0
+  }
+}

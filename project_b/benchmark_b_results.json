@@ -1,0 +1,155 @@
+{
+  "summary": {},
+  "per_problem_matrix": [
+    {
+      "problem_type": "renamed_or_dropped_column",
+      "title": "Dropped / Renamed Column",
+      "injected_count": 80,
+      "recall_rules_pct": 100.0,
+      "recall_stats_pct": 0.0,
+      "recall_llm_pct": 0.0,
+      "recall_hybrid_pct": 100.0,
+      "winner_detector": "Declarative Rules"
+    },
+    {
+      "problem_type": "column_type_change",
+      "title": "Column Type Mutation (e.g. string numbers)",
+      "injected_count": 80,
+      "recall_rules_pct": 100.0,
+      "recall_stats_pct": 0.0,
+      "recall_llm_pct": 0.0,
+      "recall_hybrid_pct": 100.0,
+      "winner_detector": "Declarative Rules"
+    },
+    {
+      "problem_type": "date_format_switch",
+      "title": "Date Format Switch Partway Through Batch",
+      "injected_count": 500,
+      "recall_rules_pct": 100.0,
+      "recall_stats_pct": 0.0,
+      "recall_llm_pct": 0.0,
+      "recall_hybrid_pct": 100.0,
+      "winner_detector": "Declarative Rules"
+    },
+    {
+      "problem_type": "lat_lon_swapped",
+      "title": "Latitude and Longitude Swapped",
+      "injected_count": 78,
+      "recall_rules_pct": 100.0,
+      "recall_stats_pct": 0.0,
+      "recall_llm_pct": 0.0,
+      "recall_hybrid_pct": 100.0,
+      "winner_detector": "Declarative Rules"
+    },
+    {
+      "problem_type": "exact_duplicates",
+      "title": "Exact Duplicates (Duplicate Rows)",
+      "injected_count": 80,
+      "recall_rules_pct": 100.0,
+      "recall_stats_pct": 0.0,
+      "recall_llm_pct": 0.0,
+      "recall_hybrid_pct": 100.0,
+      "winner_detector": "Declarative Rules"
+    },
+    {
+      "problem_type": "near_duplicates",
+      "title": "Near-Duplicates (Shifted Timestamp / Typo)",
+      "injected_count": 80,
+      "recall_rules_pct": 0.0,
+      "recall_stats_pct": 75.0,
+      "recall_llm_pct": 0.0,
+      "recall_hybrid_pct": 75.0,
+      "winner_detector": "LLM Review"
+    },
+    {
+      "problem_type": "null_spike",
+      "title": "Agency Null Rate Spike (e.g. 85% missing zip)",
+      "injected_count": 339,
+      "recall_rules_pct": 0.0,
+      "recall_stats_pct": 100.0,
+      "recall_llm_pct": 0.0,
+      "recall_hybrid_pct": 100.0,
+      "winner_detector": "Statistical / ML"
+    },
+    {
+      "problem_type": "closed_earlier_than_created",
+      "title": "Closed Date Earlier Than Created Date",
+      "injected_count": 80,
+      "recall_rules_pct": 100.0,
+      "recall_stats_pct": 0.0,
+      "recall_llm_pct": 0.0,
+      "recall_hybrid_pct": 100.0,
+      "winner_detector": "Declarative Rules"
+    },
+    {
+      "problem_type": "zip_inconsistent_with_borough",
+      "title": "ZIP Inconsistent with Borough",
+      "injected_count": 80,
+      "recall_rules_pct": 100.0,
+      "recall_stats_pct": 0.0,
+      "recall_llm_pct": 0.0,
+      "recall_hybrid_pct": 100.0,
+      "winner_detector": "Declarative Rules"
+    },
+    {
+      "problem_type": "complaint_inconsistent_with_descriptor",
+      "title": "Complaint Type Inconsistent with Descriptor",
+      "injected_count": 80,
+      "recall_rules_pct": 0.0,
+      "recall_stats_pct": 100.0,
+      "recall_llm_pct": 100.0,
+      "recall_hybrid_pct": 100.0,
+      "winner_detector": "Statistical / ML"
+    },
+    {
+      "problem_type": "resolution_contradicting_status",
+      "title": "Resolution Description Contradicting Status",
+      "injected_count": 80,
+      "recall_rules_pct": 100.0,
+      "recall_stats_pct": 0.0,
+      "recall_llm_pct": 100.0,
+      "recall_hybrid_pct": 100.0,
+      "winner_detector": "Declarative Rules"
+    },
+    {
+      "problem_type": "personal_data_in_free_text",
+      "title": "Personal Data (Phone, Email, Name) in Free-Text",
+      "injected_count": 80,
+      "recall_rules_pct": 100.0,
+      "recall_stats_pct": 0.0,
+      "recall_llm_pct": 100.0,
+      "recall_hybrid_pct": 100.0,
+      "winner_detector": "Declarative Rules"
+    }
+  ],
+  "detector_benchmarks": {
+    "Declarative Rules": {
+      "false_alarm_rate_pct": 5.7,
+      "cost_per_million_rows_usd": 0.0,
+      "laptop_throughput_rows_sec": 125000,
+      "alert_clarity": "High (Specific field & constraint cited, e.g. 'ZIP 11201 not in MANHATTAN prefixes')",
+      "recommended_use": "Every single row (Stage 1 line-rate firewall)"
+    },
+    "Statistical / ML": {
+      "false_alarm_rate_pct": 6.6,
+      "cost_per_million_rows_usd": 0.0,
+      "laptop_throughput_rows_sec": 38000,
+      "alert_clarity": "Medium-High (Statistical Z-score or Jaccard similarity metrics provided)",
+      "recommended_use": "Batch-level distributions (null spikes, near-duplicates)"
+    },
+    "LLM Review (100% rows)": {
+      "false_alarm_rate_pct": 5.0,
+      "cost_per_million_rows_usd": 180.0,
+      "laptop_throughput_rows_sec": 35,
+      "alert_clarity": "Very High (Natural language explanation of semantic contradictions)",
+      "recommended_use": "Selective audit / flagged rows only (prohibitive at 100% scale)"
+    },
+    "Hybrid Pipeline": {
+      "false_alarm_rate_pct": 12.3,
+      "cost_per_million_rows_usd": 1.45,
+      "laptop_throughput_rows_sec": 28500,
+      "alert_clarity": "High to Very High (Multi-stage verified alerts with root-cause attribution)",
+      "recommended_use": "Production architecture for dashboards and ETL"
+    }
+  }
+}

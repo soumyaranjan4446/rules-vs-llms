@@ -1,0 +1,187 @@
+{
+  "total_records": 4500,
+  "columns": [
+    "unique_key",
+    "created_date",
+    "closed_date",
+    "agency",
+    "agency_name",
+    "complaint_type",
+    "descriptor",
+    "descriptor_2",
+    "location_type",
+    "incident_zip",
+    "incident_address",
+    "street_name",
+    "cross_street_1",
+    "cross_street_2",
+    "intersection_street_1",
+    "intersection_street_2",
+    "address_type",
+    "city",
+    "landmark",
+    "status",
+    "resolution_description",
+    "resolution_action_updated_date",
+    "community_board",
+    "council_district",
+    "police_precinct",
+    "bbl",
+    "borough",
+    "x_coordinate_state_plane",
+    "y_coordinate_state_plane",
+    "open_data_channel_type",
+    "park_facility_name",
+    "park_borough",
+    "latitude",
+    "longitude",
+    "location"
+  ],
+  "issues": {
+    "missing_fields": {
+      "counts": {
+        "incident_zip": 43,
+        "latitude": 62,
+        "longitude": 62,
+        "resolution_description": 17,
+        "closed_date": 89,
+        "descriptor": 82
+      },
+      "percentages": {
+        "incident_zip": 0.96,
+        "latitude": 1.38,
+        "longitude": 1.38,
+        "resolution_description": 0.38,
+        "closed_date": 1.98,
+        "descriptor": 1.82
+      }
+    },
+    "closed_earlier_than_created": {
+      "count": 9,
+      "percentage": 0.2,
+      "examples": [
+        {
+          "unique_key": "59135314",
+          "agency": "DOT",
+          "created_date": "2023-10-16T10:54:00.000",
+          "closed_date": "2023-10-13T10:53:00.000",
+          "delta_seconds": -259260.0
+        },
+        {
+          "unique_key": "59129567",
+          "agency": "DOT",
+          "created_date": "2023-10-16T10:53:00.000",
+          "closed_date": "2023-10-13T10:53:00.000",
+          "delta_seconds": -259200.0
+        },
+        {
+          "unique_key": "59132293",
+          "agency": "DOT",
+          "created_date": "2023-10-16T10:52:00.000",
+          "closed_date": "2023-10-13T10:52:00.000",
+          "delta_seconds": -259200.0
+        },
+        {
+          "unique_key": "59129561",
+          "agency": "DOT",
+          "created_date": "2023-10-16T10:43:00.000",
+          "closed_date": "2023-10-13T10:43:00.000",
+          "delta_seconds": -259200.0
+        },
+        {
+          "unique_key": "59130958",
+          "agency": "DOT",
+          "created_date": "2023-10-16T10:42:00.000",
+          "closed_date": "2023-10-13T10:41:00.000",
+          "delta_seconds": -259260.0
+        }
+      ]
+    },
+    "unspecified_borough": {
+      "count": 2,
+      "percentage": 0.04,
+      "examples": [
+        {
+          "unique_key": "58204564",
+          "complaint_type": "Ferry Inquiry",
+          "borough": "Unspecified"
+        },
+        {
+          "unique_key": "58204560",
+          "complaint_type": "For Hire Vehicle Complaint",
+          "borough": "Unspecified"
+        }
+      ]
+    },
+    "zip_borough_inconsistency": {
+      "count": 0,
+      "percentage": 0.0,
+      "examples": []
+    },
+    "geo_coordinate_anomalies": {
+      "count": 0,
+      "percentage": 0.0,
+      "examples": []
+    },
+    "pii_in_free_text": {
+      "count": 179,
+      "percentage": 3.978,
+      "examples": [
+        {
+          "unique_key": "57333089",
+          "agency": "DEP",
+          "phones_found": [
+            "212-639-9675"
+          ],
+          "emails_found": [],
+          "text_snippet": "Noise: Construction Before/After Hours (NM1) The Department of Environmental Protection (DEP) didn't observe a violation"
+        },
+        {
+          "unique_key": "57330531",
+          "agency": "DOB",
+          "phones_found": [
+            "212-639-9675"
+          ],
+          "emails_found": [],
+          "text_snippet": "Building Permit - None The Department of Buildings attempted to investigate this complaint twice but could not gain acce"
+        },
+        {
+          "unique_key": "57334239",
+          "agency": "DEP",
+          "phones_found": [
+            "212-639-9675"
+          ],
+          "emails_found": [],
+          "text_snippet": "Noise: air condition/ventilation equipment (NV1) The Department of Environmental Protection (DEP) didn't observe a viola"
+        },
+        {
+          "unique_key": "57330088",
+          "agency": "DEP",
+          "phones_found": [
+            "212-639-9675"
+          ],
+          "emails_found": [],
+          "text_snippet": "Catch Basin Clogged/Flooding (Use Comments) (SC) The Department of Environment Protection inspected your complaint but c"
+        },
+        {
+          "unique_key": "57335138",
+          "agency": "DEP",
+          "phones_found": [
+            "212-639-9675"
+          ],
+          "emails_found": [],
+          "text_snippet": "Noise: Construction Before/After Hours (NM1) The Department of Environmental Protection (DEP) didn't observe a violation"
+        }
+      ]
+    },
+    "status_resolution_contradiction": {
+      "count": 0,
+      "percentage": 0.0,
+      "examples": []
+    },
+    "exact_duplicates": {
+      "count": 0,
+      "percentage": 0.0
+    }
+  }
+}

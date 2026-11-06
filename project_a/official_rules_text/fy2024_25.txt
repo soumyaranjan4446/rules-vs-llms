@@ -1,0 +1,75 @@
+INCOME-TAX PROVISIONS FOR SALARIED INDIVIDUALS FOR FY 2024-25 (AY 2025-26)
+Source: Income Tax Department of India & Finance (No. 2) Act, 2024
+
+1. SCOPE AND ELIGIBILITY
+Applies to individual salaried taxpayers for Assessment Year 2025-26 (Financial Year 2024-25).
+Two regimes are available: Old Tax Regime and New Tax Regime under Section 115BAC(1A).
+Section 115BAC is the default regime from FY 2023-24 onwards.
+
+2. STANDARD DEDUCTION (SECTION 16(ia))
+- Old Regime: A standard deduction of Rs. 50,000 or the amount of salary, whichever is less.
+- New Regime (amended by Finance Act 2024): A standard deduction of Rs. 75,000 or the amount of salary, whichever is less.
+
+3. HOUSE RENT ALLOWANCE (HRA) EXEMPTION (SECTION 10(13A) READ WITH RULE 2A)
+- Applicable under Old Regime only. (Nil deduction under New Regime).
+- Exemption is the least of the following three amounts:
+  a) Actual HRA received from employer.
+  b) Rent paid in excess of 10% of salary (Salary = Basic Salary + Dearness Allowance forming part of retirement benefits).
+  c) 50% of salary if living in Metro (Delhi, Mumbai, Kolkata, Chennai) or 40% of salary in Non-Metro cities.
+- If rent paid is less than or equal to 10% of salary, exemption is 0.
+
+4. DEDUCTION FOR INTEREST ON HOME LOAN (SECTION 24(b))
+- Old Regime: Interest on borrowed capital for acquisition or construction of self-occupied house property is deductible up to Rs. 2,00,000 against salary income.
+- New Regime: Section 24(b) deduction for self-occupied property is not allowed, and house property loss cannot be set off against salary income.
+
+5. CHAPTER VI-A DEDUCTIONS (APPLICABLE UNDER OLD REGIME ONLY)
+- Section 80C: Deductions for eligible investments (EPF, PPF, ELSS, life insurance premiums, home loan principal repayment, etc.) capped at an aggregate maximum of Rs. 1,50,000.
+- Section 80CCD(1B): Additional deduction for voluntary contribution to National Pension System (NPS) Tier-I account up to Rs. 50,000.
+- Section 80D: Health insurance premium and preventive health check-up:
+  a) Self, spouse, and dependent children: Max Rs. 25,000 (Rs. 50,000 if taxpayer is senior citizen aged 60 or above).
+  b) Parents: Max Rs. 25,000 (Rs. 50,000 if parents are senior citizens aged 60 or above).
+  c) Preventive health check-up is included within the overall limit, up to Rs. 5,000.
+  d) Maximum allowable under 80D is Rs. 1,00,000 (if both taxpayer and parents are senior citizens), or Rs. 75,000 (non-senior taxpayer + senior parents).
+- None of Section 80C, 80CCD(1B), or 80D is allowable under the New Regime.
+
+6. TAX SLABS & RATES FOR FY 2024-25
+
+A. OLD REGIME (For individuals aged under 60 years):
+- Up to Rs. 2,50,000: Nil
+- Rs. 2,50,001 to Rs. 5,00,000: 5% of amount exceeding Rs. 2,50,000
+- Rs. 5,00,001 to Rs. 10,00,000: Rs. 12,500 + 20% of amount exceeding Rs. 5,00,000
+- Above Rs. 10,00,000: Rs. 1,12,500 + 30% of amount exceeding Rs. 10,00,000
+(For senior citizens aged 60 to 79: First slab is up to Rs. 3,00,000 Nil; for super senior aged 80+: First slab is up to Rs. 5,00,000 Nil).
+
+B. NEW REGIME (Section 115BAC as revised by Finance (No. 2) Act 2024):
+- Up to Rs. 3,00,000: Nil
+- Rs. 3,00,001 to Rs. 7,00,000: 5% of amount exceeding Rs. 3,00,000
+- Rs. 7,00,001 to Rs. 10,00,000: Rs. 20,000 + 10% of amount exceeding Rs. 7,00,000
+- Rs. 10,00,001 to Rs. 12,00,000: Rs. 50,000 + 15% of amount exceeding Rs. 10,00,000
+- Rs. 12,00,001 to Rs. 15,00,000: Rs. 80,000 + 20% of amount exceeding Rs. 12,00,000
+- Above Rs. 15,00,000: Rs. 1,40,000 + 30% of amount exceeding Rs. 15,00,000
+
+7. REBATE UNDER SECTION 87A AND MARGINAL RELIEF
+- Old Regime: If Total Income does not exceed Rs. 5,00,000, rebate of 100% of income tax or Rs. 12,500, whichever is less. (Tax liability is Nil up to Rs. 5,00,000). No marginal relief in Old Regime.
+- New Regime:
+  a) If Total Income does not exceed Rs. 7,00,000, rebate of 100% of income tax (up to Rs. 25,000). Tax liability is Nil.
+  b) Marginal Relief on Section 87A: If Total Income slightly exceeds Rs. 7,00,000, the income-tax payable shall not exceed the amount by which Total Income exceeds Rs. 7,00,000 (i.e. Tax <= Total Income - 7,00,000). This provides relief for incomes between Rs. 7,00,001 and Rs. 7,27,778.
+
+8. SURCHARGE AND SURCHARGE MARGINAL RELIEF
+Applicable on income tax before cess:
+- Total Income Rs. 50,00,001 to Rs. 1,00,00,000: 10% surcharge.
+  Marginal Relief: Total tax + surcharge shall not exceed Tax on Rs. 50,00,000 + (Total Income - Rs. 50,00,000).
+- Total Income Rs. 1,00,00,001 to Rs. 2,00,00,000: 15% surcharge.
+  Marginal Relief: Total tax + surcharge shall not exceed (Tax + Surcharge on Rs. 1,00,00,000) + (Total Income - Rs. 1,00,00,000).
+- Total Income Rs. 2,00,00,001 to Rs. 5,00,00,000: 25% surcharge.
+  Marginal Relief: Total tax + surcharge shall not exceed (Tax + Surcharge on Rs. 2,00,00,000) + (Total Income - Rs. 2,00,00,000).
+- Total Income above Rs. 5,00,00,000:
+  Old Regime: 37% surcharge with marginal relief against Rs. 5,00,00,000.
+  New Regime: Capped at 25% surcharge (Finance Act 2023 onwards).
+
+9. HEALTH AND EDUCATION CESS
+A cess of 4% is levied on the aggregate of income-tax and surcharge, after deducting Section 87A rebate.
+
+10. ROUNDING OFF (SECTIONS 288A & 288B)
+- Total Taxable Income is rounded off to the nearest multiple of Rs. 10 under Section 288A.
+- Total Tax Payable (including surcharge and cess) is rounded off to the nearest multiple of Rs. 10 under Section 288B.
